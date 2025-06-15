@@ -1,6 +1,6 @@
 
 public class functioncall {
-
+    
     public static void call(String name){
     System.out.println("SHRE, " +name);
 }
