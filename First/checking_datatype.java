@@ -6,6 +6,6 @@ public class checking_datatype {
         Scanner scan = new Scanner(System.in);
         boolean checker = scan.hasNextInt();
         System.out.println(checker);
-        scan.close();
+
     }
 }
