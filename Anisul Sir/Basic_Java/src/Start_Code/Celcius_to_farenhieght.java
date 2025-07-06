@@ -7,5 +7,6 @@ public class Celcius_to_farenhieght {
         float C = scan.nextInt();
         float F =((9/5)*C)+32;
         System.out.println("Farenhieght is: " + F);
+        scan.close();
     }
 }
