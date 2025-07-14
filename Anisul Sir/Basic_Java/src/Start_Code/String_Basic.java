@@ -60,5 +60,40 @@ public class String_Basic {
             System.out.print(names[i] + " ");
         }
         System.out.println("");
+        
+        String game = "Clash of Clans";
+        // checking index position character
+        char ch = game.charAt(0);
+        System.out.println("Ch: " + ch);
+        
+        // cheking index character ASCII value
+        int ascii_value = game.codePointAt(0);
+        System.out.println("ASCII value is: " + ascii_value);
+        
+        // checking charter index position
+        int position = game.indexOf("of");
+        System.out.println("Position is: " + position);
+        position = game.indexOf("C");
+        System.out.println("Position is: " + position);
+        
+        // remove front and back space
+        String game_one = "   Clash Royal    ";
+        System.out.println(game_one);
+        String game_oneEdit = game_one.trim();
+        System.out.println(game_oneEdit);
+        
+        
+        String number = "01705-199367";
+        System.out.println(number);
+        
+        // replace
+        String n1 = number.replace('0', '1');
+        System.out.println("Replace : " + n1);
+        
+        // spliting
+        String n2[] = number.split("-");
+        for(String s:n2){
+            System.out.println(s);
+        }
     }
 }
