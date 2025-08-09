@@ -9,5 +9,7 @@ public class Character_Upper_LowerCase {
         Boolean check = Character.isUpperCase(ch);
         if(check) System.out.println("Uppercase Character.");
         else System.out.println("Lowercase Character");
+
+        scan.close();
     }  
 }
