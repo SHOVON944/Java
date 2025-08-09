@@ -17,5 +17,7 @@ public class Armstrong_Number {
         }
         if(rev == sum) System.out.println("This is a Armstrong Number.");
         else System.out.println("This is not a Armstrong Number.");
+
+        scan.close();
     }
 }
